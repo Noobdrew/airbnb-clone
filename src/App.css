@@ -63,3 +63,84 @@ h1 {
   color: #222222;
 
 }
+
+.card {
+  position: relative;
+  margin-left: 36px;
+  width: 220px;
+
+}
+
+.card>img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.img-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  text-align: center;
+  color: #222222;
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.ratings {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ratings>img {
+  width: 14px;
+  height: 14px;
+}
+
+.rating-text-1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.rating-text-2,
+.rating-text-3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 110%;
+  color: #918E9B;
+}
+
+.description-text {
+  padding-top: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.price {
+  padding-top: 8px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+
+
+  color: #222222;
+}
