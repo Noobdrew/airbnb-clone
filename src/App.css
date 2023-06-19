@@ -44,9 +44,6 @@ h1 {
   font-weight: 600;
   font-size: 36px;
   line-height: 110%;
-  /* identical to box height, or 40px */
-
-
   color: #000000;
 }
 
@@ -57,18 +54,26 @@ h1 {
   font-weight: 300;
   font-size: 16px;
   line-height: 110%;
-  /* or 18px */
-
-
   color: #222222;
 
 }
 
+.card-conteiner {
+  padding: 5px 25px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: nowrap;
+  gap: 25px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .card {
   position: relative;
-  margin-left: 36px;
-  width: 220px;
-
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
 }
 
 .card>img {
