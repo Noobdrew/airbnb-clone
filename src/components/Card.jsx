@@ -1,4 +1,4 @@
-import star from "../assets/star.png";
+import star from "./assets/star.png";
 
 export default function Card(props) {
   console.log(props);

@@ -1,7 +1,7 @@
 
-import katie from "./assets/katie-zaferes.png";
-import mountainBike from "./assets/mountain-bike.png";
-import wedding from "./assets/wedding-photography.png";
+import katie from "./components/assets/katie-zaferes.png";
+import mountainBike from "./components/assets/mountain-bike.png";
+import wedding from "./components/assets/wedding-photography.png";
 
 export default [
     {
