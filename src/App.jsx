@@ -10,7 +10,7 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <Main />
       <div className="card-conteiner">{cardElement}</div>
